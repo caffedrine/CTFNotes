@@ -178,3 +178,142 @@ Level 2: /^wechall$/
 Level 3: /^wechall4?\.(?:jpg|gif|tiff|bmp|png)$/
 Level 4: /^(wechall4?)\.(?:jpg|gif|tiff|bmp|png)$/
 ```
+
+
+### Programming 1 (Training, Coding)
+```js
+$.ajax({
+    url: 'http://www.wechall.net/challenge/training/programming1/index.php?action=request'
+}).done(function(ans) {
+    location.href = 'http://www.wechall.net/challenge/training/programming1/index.php?answer=' + ans;
+});
+```
+
+
+### Training: PHP LFI (Exploit, PHP, Training)
+LFI vulnerability: https://en.wikipedia.org/wiki/File_inclusion_vulnerability
+
+http://www.wechall.net/challenge/training/php/lfi/up/index.php?show=source
+```
+http://www.wechall.net/challenge/training/php/lfi/up/index.php?file=../../solution.php%00
+```
+
+
+### Training: Crypto - Transposition I (Crypto, Training)
+Ciphertext:
+
+oWdnreuf.lY uoc nar ae dht eemssga eaw yebttrew eh nht eelttre sra enic roertco drre . Ihtni koy uowlu dilekt  oes eoyrup sawsro don:wf napnsecanb.i
+
+Tool: http://tholman.com/other/transposition/
+
+Proposed Key length:　6
+
+1 0 3 2 5 4
+
+```
+fannpesacbni
+```
+
+
+### Training: Crypto - Substitution I (Crypto, Training)
+Simple_substitution: https://en.wikipedia.org/wiki/Substitution_cipher#Simple_substitution
+
+Ciphertext:
+
+IV GAO PHLRCAGV CFJ VFZ EPX MOPJ GARU LV BMROXJ R PL RLKMOUUOJ DOMV NOHH JFXO VFZM UFHZGRFX QOV RU FFUXJXMBRBHR GARU HRGGHO EAPHHOXCO NPU XFG GFF APMJ NPU RG
+
+Tool: https://quipqiup.com/
+
+Plaintext:
+
+BY THE ALMIGHTY GOD YOU CAN READ THIS MY FRIEND I AM IMPRESSED VERY WELL DONE YOUR SOLUTION KEY IS OOSNDNRFIFLI THIS LITTLE CHALLENGE WAS NOT TOO HARD WAS IT
+
+```
+OOSNDNRFIFLI
+```
+
+
+### Training: Crypto - Caesar II (Crypto, Training)
+Random Ciphertext
+
+key is between 26 and 128
+
+```py
+import sys
+
+hexCipher = """ #random
+11 39 39 2E 20 34 39 2C 76 20 43 39 3F 20 3D 39
+36 40 2F 2E 20 39 38 2F 20 37 39 3C 2F 20 2D 32
+2B 36 36 2F 38 31 2F 20 33 38 20 43 39 3F 3C 20
+34 39 3F 3C 38 2F 43 78 20 1E 32 33 3D 20 39 38
+2F 20 41 2B 3D 20 30 2B 33 3C 36 43 20 2F 2B 3D
+43 20 3E 39 20 2D 3C 2B 2D 35 78 20 21 2B 3D 38
+71 3E 20 33 3E 09 20 7B 7C 02 20 35 2F 43 3D 20
+33 3D 20 2B 20 3B 3F 33 3E 2F 20 3D 37 2B 36 36
+20 35 2F 43 3D 3A 2B 2D 2F 76 20 3D 39 20 33 3E
+20 3D 32 39 3F 36 2E 38 71 3E 20 32 2B 40 2F 20
+3E 2B 35 2F 38 20 43 39 3F 20 3E 39 39 20 36 39
+38 31 20 3E 39 20 2E 2F 2D 3C 43 3A 3E 20 3E 32
+33 3D 20 37 2F 3D 3D 2B 31 2F 78 20 21 2F 36 36
+20 2E 39 38 2F 76 20 43 39 3F 3C 20 3D 39 36 3F
+3E 33 39 38 20 33 3D 20 2E 32 2E 3C 2D 3C 32 33
+31 2C 37 2F 78
+"""
+
+hexCipherArr = hexCipher.replace('\n',' ').strip().split(" ")
+cipherArr = []
+
+for h in hexCipherArr:
+    cipherArr.append(int(h, 16))
+
+for key in range(26, 128 + 1):
+    for c in cipherArr:
+        sys.stdout.write(chr(c + key))
+    print
+```
+
+Good job you solved one more challenge in your journey This one was fairly easy to crack Wasn't it keys is a quite small keyspace so it shouldn't have taken you too long to decrypt this message Well done your solution is dhdrcrhigbme
+
+```
+dhdrcrhigbme (Random)
+```
+
+
+### Training: Crypto - Digraphs (Crypto, Training)
+Random Ciphertext
+
+keyword: congratulations
+
+```py
+
+def split_len(seq, length):
+    return [seq[i:i+length] for i in range(0, len(seq), length)]
+
+cipher = "qxxulthugapjpwrrecpjpwjhxultpe upxurr zgbftxgaghxdpwbfzg pwljjhpe nhbfpepepjhubf perrtxtxbfpepeelrrececgh rapjpe ltxupw pwxuxu zgjheleljhtxrrecpw bfjhpwljbfgasp yxpjpe jhpwtw rabfececsp huxuxuzg joxuee rfltpwbfga pwljjhpe dobfghyxxugazg pjpe pexuecrrpwjhxultre txgaxubfecjhhupeeepepepe"
+allChar = 'abcdefghijklmnopqrstuvwxyz0123456789'
+idx = 0
+map = {}
+singleCipher = ''
+
+cipherDobuleWords = cipher.split(" ")
+cipherSingleWords = []
+
+for doubleWords in cipherDobuleWords:
+    doubleWord = split_len(doubleWords, 2)
+    for d in doubleWord:
+        if d not in map:
+            map[d] = allChar[idx]
+            idx = idx + 1
+        singleCipher += map[d]
+    singleCipher += ' '
+
+print singleCipher
+```
+
+Congratulations. You decrypted this message successfully. Was not too difficult either, was it? Well, good job. Enter this keyword as solution: croeligsbsss.
+
+Tool: https://quipqiup.com/
+
+```
+croeligsbsss
+```
