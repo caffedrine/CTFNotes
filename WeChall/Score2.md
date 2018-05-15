@@ -446,7 +446,7 @@ Tool: GIMP
 
 
 ### AUTH me (HTTP, Training)
-import client.p12
+browser import https://authme.wechall.net/challenge/space/auth_me/find_me/client.p12
 
 https://authme.wechall.net/challenge/space/auth_me/www/index.php
 
@@ -462,6 +462,11 @@ acknowledge,beauty,charming,depth,elegance,fantasy,guidance,hackerspace,inspirat
 
 
 ### Wanda (Fun, Exploit)
+https://wanda.gizmore.org/
 
 
 ### Railsbin (Exploit)
+https://github.com/gizmore/railsbin
+
+http://railsbin.wechall.net/
+
