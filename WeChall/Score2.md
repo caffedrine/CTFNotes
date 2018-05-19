@@ -320,9 +320,9 @@ while true; do (echo -e 'HTTP/1.1 200 OK\r\n'; echo -e "My name is Ranger and iC
 Client:
 python: requests
 ```curl
-curl -b cookie.file -c cookie.file -X POST -d "username=Ranger" -d "password=********" -d "login=Login" http://www.wechall.net/login
+curl -b cookie.file -c cookie.file -X POST -d "username=Ranger" -d "password=********" -d "login=Login" https://www.wechall.net/login
 
-curl -b cookie.file -c cookie.file -X POST -d "port=80&go=" http://www.wechall.net/challenge/training/www/basic/index.php
+curl -b cookie.file -c cookie.file -X POST -d "port=80&go=" https://www.wechall.net/challenge/training/www/basic/index.php
 ```
 
 ### Training: Register Globals (Exploit, PHP, Training)

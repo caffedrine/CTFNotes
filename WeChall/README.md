@@ -3,6 +3,8 @@ WeChall
 
 Solutions for https://www.wechall.net/
 
+Source Code: https://github.com/gizmore/gwf3
+
 |Solve|Score|Title by Author|
 |:-:|:-:|:-:|
 |✓|1|Training: Get Sourced by Gizmore|
@@ -45,29 +47,29 @@ Solutions for https://www.wechall.net/
 |✓|3|Stegano Woman by Z|
 |✓|3|Flow Over Astronomy by anto|
 |✓|3|Towers of Hanoi by Z|
-||3|Enlightment by anto|
-||3|Simply Red by anto|
-||3|htmlspecialchars by Gizmore and Kender|
-||3|Impossible n'est pas français by CommComm|
-||3|PHP 0815 by Gizmore|
-||3|Guesswork by Gizmore|
-||3|No Escape by Gizmore|
-||3|Training: Crypto - Substitution II by Gizmore|
-||3|Training: WWW-Rewrites by Gizmore|
-||3|Stegano Attachment by Gizmore|
-||3|Zebra by hirsch|
-||3|Pimitive Encryption by Gizmore|
-||3|Vermeer by XcrAckX|
-||3|Stop us by noother and Gizmore|
-||3|PHP 0818 by noother|
-||3|Are you serial by Gizmore|
+|✓|3|Enlightment by anto|
+|✓|3|Simply Red by anto|
+|✓|3|htmlspecialchars by Gizmore and Kender|
+|✓|3|Impossible n'est pas français by CommComm|
+|✓|3|PHP 0815 by Gizmore|
+|✓|3|Guesswork by Gizmore|
+|✓|3|No Escape by Gizmore|
+|✓|3|Training: Crypto - Substitution II by Gizmore|
+|✖|3|Training: WWW-Rewrites by Gizmore|
+|✓|3|Stegano Attachment by Gizmore|
+|✓|3|Zebra by hirsch|
+|✓|3|Pimitive Encryption by Gizmore|
+|✓|3|Vermeer by XcrAckX|
+|✓|3|Stop us by noother and Gizmore|
+|✓|3|PHP 0818 by noother|
+|✓|3|Are you serial by Gizmore|
 |✖|3|Shadowlamb - Chapter II by Gizmore|
-||3|SSH... Z is sleeping by Z|
-||3|Chessy Hawks by Jinx|
-||3|eXtract Me by oleg|
-||3|PHP 0819 by space|
-||3|Illuminati by Gizmore|
-||3|Britcoin by Gizmore|
+|✓|3|SSH... Z is sleeping by Z|
+|✓|3|Chessy Hawks by Jinx|
+|✓|3|eXtract Me by oleg|
+|✓|3|PHP 0819 by space|
+|✓|3|Illuminati by Gizmore|
+|✖|3|Britcoin by Gizmore|
 ||4|bill for Bill by Z|
 ||4|Trivia by Z and Gizmore|
 ||4|PHP 0816 by Gizmore|
