@@ -70,30 +70,30 @@ Source Code: https://github.com/gizmore/gwf3
 |✓|3|PHP 0819 by space|
 |✓|3|Illuminati by Gizmore|
 |✖|3|Britcoin by Gizmore|
-||4|bill for Bill by Z|
-||4|Trivia by Z and Gizmore|
-||4|PHP 0816 by Gizmore|
-||4|Quangcurrency by quangntenemy and Gizmore|
-||4|Yourself PHP by Gizmore and Kender|
-||4|The Guestbook by Gizmore|
-||4|Crappyshare by Gizmore|
-||4|Paranoid by Gizmore|
-||4|Training: Bacon Returns by Gizmore|
-||4|Tracks by Gizmore|
-||4|Training: RegexMini by ludde|
-||4|Identity by Gizmore|
+|✓|4|bill for Bill by Z|
+|✖|4|Trivia by Z and Gizmore|
+|✓|4|PHP 0816 by Gizmore|
+|✓|4|Quangcurrency by quangntenemy and Gizmore|
+|✓|4|Yourself PHP by Gizmore and Kender|
+|✓|4|The Guestbook by Gizmore|
+|✓|4|Crappyshare by Gizmore|
+|✖|4|Paranoid by Gizmore|
+|✓|4|Training: Bacon Returns by Gizmore|
+|✓|4|Tracks by Gizmore|
+|✓|4|Training: RegexMini by ludde|
+|✖|4|Identity by Gizmore|
 |✖|4|Shadowlamb - Chapter III by Gizmore|
-||4|Burning Fox by Gizmore|
-||4|Inka by Gizmore|
-||4|Choose your Path by Mart and Gizmore|
-||4|Choose your Path II by Mart and Gizmore|
-||4|Py-Tong by space|
-||4|Warchall: Live LFI by Gizmore|
-||4|Warchall: Live RFI by Gizmore|
-||4|HOST me by space|
-||4|QMine by quangntenemy|
-||4|Warchall: Live RCE by phiber and nurfed|
-||4|Training: Net Ports by Gizmore|
+|✓|4|Burning Fox by Gizmore|
+|✖|4|Inka by Gizmore|
+|✓|4|Choose your Path by Mart and Gizmore|
+|✓|4|Choose your Path II by Mart and Gizmore|
+|✓|4|Py-Tong by space|
+|✓|4|Warchall: Live LFI by Gizmore|
+|✓|4|Warchall: Live RFI by Gizmore|
+|✓|4|HOST me by space|
+|✖|4|QMine by quangntenemy|
+|✓|4|Warchall: Live RCE by phiber and nurfed|
+|✓|4|Training: Net Ports by Gizmore|
 ||5|Can you read me by Gizmore|
 ||5|Lettergrid by Gizmore|
 ||5|The Nap by Z|
