@@ -4,9 +4,10 @@
 passwordsuxx
 ```
 
-
 ### Trivia (Research, Fun)
-Google it
+Google ?
+
+http://www.wechall.net/challenge/trivia/74k37h053/
 
 
 ### PHP 0816 (Exploit, PHP)
@@ -155,6 +156,8 @@ ThinKingOutSideTheBox
 
 ### Inka (Logic, Stegano, Encoding, Coding)
 YouTube hint: Killing In the Name ?
+
+http://www.wechall.net/challenge/inka/3p/
 
 
 ### Choose your Path (Linux, Exploit, Warchall)

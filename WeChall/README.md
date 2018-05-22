@@ -71,7 +71,7 @@ Source Code: https://github.com/gizmore/gwf3
 |✓|3|Illuminati by Gizmore|
 |✖|3|Britcoin by Gizmore|
 |✓|4|bill for Bill by Z|
-|✖|4|Trivia by Z and Gizmore|
+|✓|4|Trivia by Z and Gizmore|
 |✓|4|PHP 0816 by Gizmore|
 |✓|4|Quangcurrency by quangntenemy and Gizmore|
 |✓|4|Yourself PHP by Gizmore and Kender|
@@ -94,27 +94,27 @@ Source Code: https://github.com/gizmore/gwf3
 |✖|4|QMine by quangntenemy|
 |✓|4|Warchall: Live RCE by phiber and nurfed|
 |✓|4|Training: Net Ports by Gizmore|
-||5|Can you read me by Gizmore|
-||5|Lettergrid by Gizmore|
-||5|The Nap by Z|
-||5|Sudoku I by Gizmore|
-||5|DropDaBass by anto|
-||5|Sidology by Gizmore|
-||5|Out of the Cloud by anto|
-||5|A Black Hats Tale by Z|
-||5|Fix Us by Z and Gizmore|
-||5|Addslashes by Gizmore|
-||5|The Last Hope by bsdhell|
-||5|MD5.SALT by Gizmore|
-||5|WC Hashing Game by Gizmore|
-||5|The Travelling Customer by Gizmore|
-||5|Preg Evasion by noother|
-||5|Blinded by the light by Gizmore|
-||5|Smile by livinskull and Gizmore|
+|✓|5|Can you read me by Gizmore|
+|✖|5|Lettergrid by Gizmore|
+|✖|5|The Nap by Z|
+|✖|5|Sudoku I by Gizmore|
+|✖|5|DropDaBass by anto|
+|✓|5|Sidology by Gizmore|
+|✖|5|Out of the Cloud by anto|
+|✖|5|A Black Hats Tale by Z|
+|✖|5|Fix Us by Z and Gizmore|
+|✓|5|Addslashes by Gizmore|
+|✖|5|The Last Hope by bsdhell|
+|✓|5|MD5.SALT by Gizmore|
+|✓|5|WC Hashing Game by Gizmore|
+|✓|5|The Travelling Customer by Gizmore|
+|✓|5|Preg Evasion by noother|
+|✓|5|Blinded by the light by Gizmore|
+|✖|5|Smile by livinskull and Gizmore|
 |✖|5|Shadowlamb - Chapter IV by Gizmore|
-||5|Time to Reset by Gizmore|
-||5|Brainfucked by Gizmore|
-||5|Zen by Gizmore|
+|✖|5|Time to Reset by Gizmore|
+|✓|5|Brainfucked by Gizmore|
+|✖|5|Zen by Gizmore|
 ||6|Morsed by Gizmore|
 ||6|Letterworm by Gizmore|
 ||6|Anderson Application Auditing by Z|
