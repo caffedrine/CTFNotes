@@ -19,6 +19,8 @@ http://www.wechall.net/challenge/can_you_readme/index.php
 
 
 ### Lettergrid (Coding)
+ref: https://github.com/xr1s/brush-title/tree/master/WeChall/Lettergrid
+
 ```
 zhqgbfcymzrkfnngvxhhv
 hhbmprpprgcxkwwfjpbbx
@@ -78,6 +80,8 @@ aircrack-ng
 
 ref: https://github.com/CyrilP/wechall
 
+ref: https://github.com/xr1s/brush-title/tree/master/WeChall/A%20Black%20Hats%20Tale
+
 ```
 jennifer
 ```
@@ -123,7 +127,7 @@ coincidence,subversion,triangulation,orthography
 ### The Travelling Customer (Coding, Training)
 https://xkcd.com/287/
 
-def: https://github.com/xr1s/brush-title/tree/master/WeChall/The%20Travelling%20Customer
+ref: https://github.com/xr1s/brush-title/tree/master/WeChall/The%20Travelling%20Customer
 
 
 ### Preg Evasion (Exploit, PHP)

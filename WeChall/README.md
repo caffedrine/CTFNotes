@@ -101,7 +101,7 @@ Source Code: https://github.com/gizmore/gwf3
 |✖|5|DropDaBass by anto|
 |✓|5|Sidology by Gizmore|
 |✖|5|Out of the Cloud by anto|
-|✖|5|A Black Hats Tale by Z|
+|✓|5|A Black Hats Tale by Z|
 |✖|5|Fix Us by Z and Gizmore|
 |✓|5|Addslashes by Gizmore|
 |✖|5|The Last Hope by bsdhell|
@@ -115,40 +115,40 @@ Source Code: https://github.com/gizmore/gwf3
 |✖|5|Time to Reset by Gizmore|
 |✓|5|Brainfucked by Gizmore|
 |✖|5|Zen by Gizmore|
-||6|Morsed by Gizmore|
-||6|Letterworm by Gizmore|
-||6|Anderson Application Auditing by Z|
-||6|The Cookie is a lie by Z|
-||6|Malware by Z|
-||6|Z - Reloaded by Z and Gizmore|
-||6|Credit Card Challenge Pwned! by Z|
-||6|Table Names by Gizmore|
-||6|GizCrypt by Gizmore|
-||6|B.AiM by BAIM and Gizmore|
-||6|Fremes by Gizmore|
-||6|Babbage and Coldplay by ludde|
-||6|Blinded by the lighter by kwisatz|
-||6|Warchall: Tryouts by matrixman|
-||6|Are you blind? by Mawekl|
-||6|Light in the Darkness by Mawekl|
-||6|Three Times Sad by dloser|
-||6|Table Names II by nurfed|
-||6|Experience by Gizmore|
-||6|Disclosures by Gizmore and dloser|
-||7|Count, don't wonder by galen|
-||7|Save the World by Z|
-||7|Screwed Signup by Gizmore|
-||7|Order By Query by Gizmore|
-||7|Snake by Gizmore|
-||7|Speed Your Way To VICtory by Jander|
-||7|Training: Warchall - 7 Tropical Fruits by tropic|
-||7|What is your Name? by Mawekl|
-||7|Time to Reset II by Gizmore and noother|
-||7|Stalking by Gizmore|
-||7|Warchall: Nurxxed by nurfed|
-||7|2013 New Years Special by quangntenemy|
-||7|Nippon by Gizmore|
-||8|Agent Larry by Z|
-||8|Crackcha by Gizmore|
-||9|The BrownOS by dloser|
+|✖|6|Morsed by Gizmore|
+|✖|6|Letterworm by Gizmore|
+|✓|6|Anderson Application Auditing by Z|
+|✖|6|The Cookie is a lie by Z|
+|✓|6|Malware by Z|
+|✖|6|Z - Reloaded by Z and Gizmore|
+|✖|6|Credit Card Challenge Pwned! by Z|
+|✓|6|Table Names by Gizmore|
+|✓|6|GizCrypt by Gizmore|
+|✖|6|B.AiM by BAIM and Gizmore|
+|✖|6|Fremes by Gizmore|
+|✓|6|Babbage and Coldplay by ludde|
+|✓|6|Blinded by the lighter by kwisatz|
+|✓|6|Warchall: Tryouts by matrixman|
+|✓|6|Are you blind? by Mawekl|
+|✓|6|Light in the Darkness by Mawekl|
+|✖|6|Three Times Sad by dloser|
+|✓|6|Table Names II by nurfed|
+|✖|6|Experience by Gizmore|
+|✖|6|Disclosures by Gizmore and dloser|
+|✖|7|Count, don't wonder by galen|
+|✓|7|Save the World by Z|
+|✓|7|Screwed Signup by Gizmore|
+|✓|7|Order By Query by Gizmore|
+|✖|7|Snake by Gizmore|
+|✖|7|Speed Your Way To VICtory by Jander|
+|✓|7|Training: Warchall - 7 Tropical Fruits by tropic|
+|✖|7|What is your Name? by Mawekl|
+|✖|7|Time to Reset II by Gizmore and noother|
+|✖|7|Stalking by Gizmore|
+|✖|7|Warchall: Nurxxed by nurfed|
+|✖|7|2013 New Years Special by quangntenemy|
+|✖|7|Nippon by Gizmore|
+|✖|8|Agent Larry by Z|
+|✖|8|Crackcha by Gizmore|
+|✖|9|The BrownOS by dloser|
 
